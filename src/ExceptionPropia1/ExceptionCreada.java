@@ -4,7 +4,7 @@ import java.io.IOException;
 
 //Funcaria igual si en vez de Extender de Exception heredara de IOException
 
-public class ExceptionCreada extends Exception{
+public final class ExceptionCreada extends Exception{
 
 	public ExceptionCreada() {}
 	
